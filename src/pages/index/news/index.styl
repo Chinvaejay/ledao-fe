@@ -1,0 +1,70 @@
+.news-box{
+  width: 100%
+  background-color: #f9f9f9
+  >.content{
+    width: 120rem
+    margin: 0 auto
+    display flex
+    >div{
+      padding: 2rem
+    }
+    >.left{
+      flex 3
+      min-width 30rem
+      max-width 30rem
+    }
+    >.right{
+      flex 6
+      max-width 90rem
+      >.top{
+        width: 100%
+        height: 4rem
+        line-height: 4rem
+        font-size: 2rem
+        font-weight: 600
+        color #008cd7
+        padding-left: 1rem
+      }
+      >.bottom{
+        padding: 1rem
+        font-size: 1.4rem
+        color: #333;
+        line-height: 3.5rem
+        border-top .2rem solid #008cd7
+        >ul{
+          width: 100%
+          >li{
+            width: 100%
+            cursor pointer
+            font-size: 1.4rem
+            display flex
+            justify-content space-between
+            overflow: hidden;
+            &:hover{
+              text-decoration underline
+            }
+            >.left{
+              flex 7
+            }
+            >.right{
+              flex 3
+              margin-left: 1rem
+              max-width 15rem
+              min-width: 15rem;
+              color #888888
+            }
+          }
+        }
+      }
+    }
+  }
+  >.top{
+    width: 100%
+    height: 32rem
+    >img{
+      width: 100%
+      height: 100%
+      object-fit cover
+    }
+  }
+}

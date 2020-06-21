@@ -1,0 +1,42 @@
+.admin-login-box{
+  position fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: url("http://www.51pptmoban.com/d/file/2012/11/05/c7ab6833cc2d7e0864257f60e9b4ce37.jpg") no-repeat
+  background-size: cover;
+  z-index 999
+  >.title{
+    width: 100%
+    height: 25rem
+    display flex
+    justify-content center
+    align-items center
+    color #fff
+    font-size: 3rem
+    font-weight: 600
+    letter-spacing 5px
+  }
+  >.login-box{
+    position: absolute;
+    top: 20rem
+    left: 50%
+    transform translateX(-50%)
+    width: 50rem
+    padding: 3rem
+    border-radius 1rem
+    background-color: #c1c1c1
+    opacity .8
+    >.login-content{
+      position relative
+      >a{
+        font-size: 1.2rem
+        padding-left: 1rem
+      }
+      >.input{
+        line-height: 4.2rem
+      }
+    }
+  }
+}
